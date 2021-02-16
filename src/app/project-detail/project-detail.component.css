@@ -1,0 +1,64 @@
+.customH1 {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.customP{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 17px;
+
+}
+
+h5 {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 26px ;
+}
+
+.UnderH {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 22px ;
+}
+
+.customH4 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.guideline_item {
+  margin-bottom: 26px;
+}
+
+.guideline_item_counter {
+  background-color: #D76161;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  vertical-align: middle;
+  color: white;
+}
+
+.guideline_title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+.guideline_content {
+  margin-top: 6px;
+}
+
+.guideline_content span:nth-child(1){
+  font-weight: normal;
+}
+
+.guideline_content span:nth-child(2){
+  font-weight: 500;
+  text-align: left;
+}
+
+.guideline_item_color{
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-bottom: 3px;
+}
+
+

@@ -1,0 +1,11 @@
+.customFooter{
+  padding: 2.5rem 0;
+  color: #000;
+  text-align: center;
+  background-color: #fff;
+  border-top: .05rem solid #e5e5e5;
+}
+.customP{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 17px;
+}
