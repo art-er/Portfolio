@@ -1,0 +1,108 @@
+<div class="row m-5"></div>
+<div class="row m-5"></div><!--br-->
+<div class="row m-5"></div><!--br-->
+
+
+<div class="container">
+  <h1 class="display-4 customH1 font-weight-bold">Let’s work together</h1>
+
+  <div class="row mt-5">
+
+    <div class="col-lg col-sm-12 contactDiv position-relative mr-5">
+      <div class="d-flex justify-content-end web_header">
+        <div class="web_left" >
+
+        </div>
+
+        <div class="web_middle">
+
+        </div>
+        <div class="web_right">
+
+        </div>
+
+      </div>
+      <hr>
+      <div class="web_content">
+        <h4>Email Address</h4>
+        <a>kereidin.alisher@gmail.com</a>
+      </div>
+    </div>
+
+    <div class="col-lg col-sm-12 contactDiv mr-5">
+      <div class="d-flex justify-content-end web_header">
+        <div class="web_left" >
+
+        </div>
+
+        <div class="web_middle">
+
+        </div>
+        <div class="web_right">
+
+        </div>
+
+      </div>
+      <hr>
+      <div class="web_content">
+        <h4>Phone number</h4>
+        <a>8-777-840-43-33</a>
+      </div>
+    </div>
+
+    <div class="col-lg col-sm-12 contactDiv mr-5">
+      <div class="d-flex justify-content-end web_header">
+        <div class="web_left" >
+
+        </div>
+
+        <div class="web_middle">
+
+        </div>
+        <div class="web_right">
+
+        </div>
+
+      </div>
+      <hr>
+      <div class="web_content">
+        <h4>Location</h4>
+        <a>Kazakhstan, Almaty</a>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="row m-5"></div><!--br-->
+
+  <h1 class="display-4 customH1 font-weight-bold">Write me</h1>
+  <p class="contactP">
+    Write your name, email and your message, the answer will come within a day
+  </p >
+
+<div class="row mt-5">
+  <div class="col-7">
+    <form [formGroup]="record">
+      <div class="row">
+        <div class="col">
+          <label for="name" class="font-weight-bold">Full Name</label>
+          <input type="text" class="form-control" id="name" name="name" formControlName="name">
+        </div>
+        <div class="col">
+          <label for="email" class="font-weight-bold">Email</label>
+          <input type="text" class="form-control" id="email" name="email" formControlName="email">
+        </div>
+      </div>
+      <label for="message" class="mt-3 font-weight-bold" >Message</label>
+      <textarea class="form-control" id="message" rows="5" name="message" formControlName="message"></textarea>
+      <button (click)='SaveButtonClick()' type="submit" class="btn btn-dark mt-4">Send</button>
+    </form>
+
+  </div>
+  <div class="col-5">
+
+  </div>
+</div>
+  <div class="row m-5"></div><!--br-->
+
+</div>

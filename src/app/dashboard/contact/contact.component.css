@@ -1,0 +1,49 @@
+.customH1 {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.contactDiv{
+  background: #FFFFFF;
+  box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.15);
+  border-radius: 15px;
+  padding: 0;
+}
+
+.web_header {
+  padding: 0 15px;
+}
+
+.web_left, .web_middle, .web_right{
+  margin: 7px 0 7px 10px;
+}
+
+.web_left {
+  width: 0;
+  height: 0;
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+
+  border-right:7px solid #C4C4C4;
+}
+.web_middle{
+  width: 8px;
+  height: 8px;
+  background-color: #C4C4C4;
+  border-radius: 50%;
+}
+
+.web_right{
+  width: 8px;
+  height: 8px;
+  background-color: #C4C4C4;
+}
+
+.web_content {
+  margin: 24px 0 30px 25px;
+}
+
+.contactP {
+  font-size: 24px;
+  font-weight: lighter;
+  margin-top: 15px;
+}

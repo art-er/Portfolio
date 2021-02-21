@@ -4,4 +4,8 @@
 
 body {
   font-family: 'Montserrat', sans-serif!important;
+  margin: 0;
+}
+hr{
+  margin: 0;
 }
