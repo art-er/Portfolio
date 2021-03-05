@@ -7,6 +7,7 @@ import {ProjectDetailComponent} from './project-detail/project-detail.component'
 import { ContactComponent } from './contact/contact.component';
 import {ReactiveFormsModule} from '@angular/forms';
 import { AboutComponent } from './about/about.component';
+import {ButtonHoverDirective} from '../directives/button-hover.directive';
 
 
 @NgModule({
@@ -14,7 +15,8 @@ import { AboutComponent } from './about/about.component';
     DashboardComponent,
     ProjectDetailComponent,
     ContactComponent,
-    AboutComponent],
+    AboutComponent,
+    ButtonHoverDirective],
   imports: [
     CommonModule,
     DashboardRoutingModule,
