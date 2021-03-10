@@ -8,7 +8,7 @@ export class ButtonHoverDirective {
   constructor(private el: ElementRef) { }
 
   @HostListener('mouseenter') onMouseEnter() {
-    this.highlight('yellow');
+    this.highlight('dark');
   }
 
   @HostListener('mouseleave') onMouseLeave() {

@@ -80,14 +80,14 @@
   <div class="row m-5"></div>  <!--br-->
 
   <!--Third block Design proc-->
-  <div class="col-md px-0">
+  <div class="col-md px-0" >
     <h1 class="display-4 customH1 font-weight-bold">Design Process</h1>
-    <div class="row m-1">
-      <p class="UnderH my-3 mr-3">1. Storyboard</p>
-      <p class="UnderH my-3 mr-3">2. Define</p>
-      <p class="UnderH my-3 mr-3">3. Ideate</p>
-      <p class="UnderH my-3 mr-3">4. Select</p>
-      <p class="UnderH my-3 mr-3">5. Prototype</p>
+    <div class="row m-1" >
+      <ul>
+        <li *ngFor="let step of steps" class="style-for-steps">
+          {{step}}
+        </li>
+      </ul>
     </div>
   </div>
 
