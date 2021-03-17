@@ -1,0 +1,188 @@
+[
+  {
+    "id": 1,
+    "url": "food-style",
+    "name": "Fo_oD.Style",
+    "date": "2020.12-2021.01",
+    "imgUrl": "Foodstyle.PNG",
+    "shortDescription": "This is an individual project created to gain experience in mobile design development. Applications Fo_oD Style aims to combine delivery.",
+    "description": "This is an individual project created to gain experience in mobile design development. Applications Fo_oD Style aims to combine delivery applications and find recipes applications for the convenience of quarantined users. The goal of the project was to achieve immersion of users by making it familiar and friendly.",
+    "type": "Android and iOS app",
+    "unique": "The key aspect for this project was the combination of both regular food delivery and the ability to find many different recipes with step-by-step cooking",
+    "tools": "Figma, Adobe XD, Notion, paper, pen and imagination",
+    "role": [
+      "Analysis", "Storyboard", "User flow", "Wireframing", "Prototyping", "Color", "Typography"
+    ],
+    "roleDescription": "There was only me on the team. Make the application friendly using all the principles from (lawsofux.com)",
+    "designProcess": [
+      "Storyboard",
+      "Define",
+      "Ideate",
+      "Select",
+      "Prototype"
+    ],
+    "storyboard": [
+      {
+        "id": 1,
+        "imageUrl": "enjoying.PNG",
+        "title": "Enjoy the time",
+        "description": "It was another great day when I just do nothing in quarantine"
+      },
+      {
+        "id": 2,
+        "imageUrl": "Message.PNG",
+        "title": "Mom's message",
+        "description": "Damn, mom wrote that the guests are coming soon and I need to make pasta, what should I do?"
+      },
+      {
+        "id": 3,
+        "imageUrl": "Restaurant.PNG",
+        "title": "Look for a recipes",
+        "description": "So, I have a Food Style application where I can find a recipe and, if I can't cook, I'll just order ready-made food."
+      },
+      {
+        "id": 4,
+        "imageUrl": "Fridge.PNG",
+        "title": "Check the fridge",
+        "description": "I found an easy recipe for pasta, it says that you need noodles, minced meat and tomato paste, I need to check the fridge"
+      },
+      {
+        "id": 5,
+        "imageUrl": "check.PNG",
+        "title": "Order ingredients",
+        "description": "It turns out I don't have minced meat, I need to order it and at the same time order pizza and sushi"
+      },
+      {
+        "id": 6,
+        "imageUrl": "TakeOrder.PNG",
+        "title": "Take order",
+        "description": "All the order came, pretty quickly I didn't even have time to boil the paws"
+      }
+    ],
+    "problems": [
+      "There are many food delivery and cooking applications on the market",
+      "Filter ingredients (allergic, vegetarian, halal, ban ingredients)",
+      "Make the app unique and using features from other similar apps",
+      "Convenient search for recipes",
+      "Cluttering Interfaces with too much information on one screen"
+    ],
+    "ideate": "I looked at many different delivery applications and recipes, identifying their shortcomings, created user flows and created lo-fi fidelity wireframes for them with marker and whiteboard, thinking about each step (is it necessary at all, if the user wants to go here, it can be moved and so on). Using lawsofux made the application right",
+    "ideateImg": "Wireframe.PNG",
+    "ideateWidth": "540",
+    "prototype": [
+      {
+        "id": 1,
+        "name": "Shop",
+        "ux": "Browsing restaurants -> restaurant menus -> selecting dish ingredients"
+      },
+      {
+        "id": 2,
+        "name": "Cook",
+        "ux": "Recipe Viewer -> Recipe Filter -> Cooking time, Daily regimen, Cuisine, Calories, Dietary"
+      },
+      {
+        "id": 3,
+        "name": "Cart",
+        "ux": "Viewing a product -> Deleting a product -> Viewing bank cards -> View a delivery map and additional information"
+      },
+      {
+        "id": 4,
+        "name": "Fridge",
+        "ux": "View Available Ingredients -> Remove Ingredients -> Add Ingredients to Fridge -> View Ingredients Store"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "url": "canto",
+    "name": "Canto",
+    "date": "2020.08-2020.11",
+    "imgUrl": "Canto.PNG",
+    "shortDescription": "This is an individual project created to gain experience in web design development. Applications Canto aims to redesign of the spotify.",
+    "description": "This is an individual project created to gain experience in mobile design development. Applications Canto is a music web application for promoting new songs and new artists. Gather the experience of all music applications and create your own product that everyone can use. The goal of the project was to achieve user immersion by making it familiar and friendly.",
+    "type": "Android and iOS app",
+    "unique": "The key aspect of this project was the redesign of the spotify and creating the conditions for promoting new musicians and becoming popular.",
+    "tools": "Figma, Adobe XD, Notion, paper, pen and imagination",
+    "role": [
+      "Analysis", "Storyboard", "User flow", "Wireframing", "Prototyping", "Color", "Typography"
+    ],
+    "roleDescription": "There was only me on the team. Make the application friendly using all the principles from (lawsofux.com)",
+    "designProcess": [
+      "Analyze",
+      "Storyboard",
+      "Define",
+      "Ideate",
+      "Prototype"
+    ],
+    "storyboard": [
+      {
+        "id": 1,
+        "imageUrl": "enjoying.PNG",
+        "title": "Enjoy the time",
+        "description": "It was another great day when I just do nothing in quarantine"
+      },
+      {
+        "id": 2,
+        "imageUrl": "Message.PNG",
+        "title": "Mom's message",
+        "description": "Damn, mom wrote that the guests are coming soon and I need to make pasta, what should I do?"
+      },
+      {
+        "id": 3,
+        "imageUrl": "Restaurant.PNG",
+        "title": "Look for a recipes",
+        "description": "So, I have a Food Style application where I can find a recipe and, if I can't cook, I'll just order ready-made food."
+      },
+      {
+        "id": 4,
+        "imageUrl": "Fridge.PNG",
+        "title": "Check the fridge",
+        "description": "I found an easy recipe for pasta, it says that you need noodles, minced meat and tomato paste, I need to check the fridge"
+      },
+      {
+        "id": 5,
+        "imageUrl": "check.PNG",
+        "title": "Order ingredients",
+        "description": "It turns out I don't have minced meat, I need to order it and at the same time order pizza and sushi"
+      },
+      {
+        "id": 6,
+        "imageUrl": "TakeOrder.PNG",
+        "title": "Take order",
+        "description": "All the order came, pretty quickly I didn't even have time to boil the paws"
+      }
+    ],
+    "problems": [
+      "Difficult to create playlist but mood",
+      "Facebook is needed to see what friends are listening",
+      "No genre ban",
+      "no lyrics",
+      "Additional info about the song and artists"
+    ],
+    "ideateImg": "IA.PNG",
+    "ideateWidth": "650",
+    "ideate": "I looked at many different delivery applications and recipes, identifying their shortcomings, created user flows and created lo-fi fidelity wireframes for them with marker and whiteboard, thinking about each step (is it necessary at all, if the user wants to go here, it can be moved and so on). Using lawsofux made the application right",
+    "prototype": [
+      {
+        "id": 1,
+        "name": "Shop",
+        "ux": "Browsing restaurants -> restaurant menus -> selecting dish ingredients"
+      },
+      {
+        "id": 2,
+        "name": "Cook",
+        "ux": "Recipe Viewer -> Recipe Filter -> Cooking time, Daily regimen, Cuisine, Calories, Dietary"
+      },
+      {
+        "id": 3,
+        "name": "Cart",
+        "ux": "Viewing a product -> Deleting a product -> Viewing bank cards -> View a delivery map and additional information"
+      },
+      {
+        "id": 4,
+        "name": "Fridge",
+        "ux": "View Available Ingredients -> Remove Ingredients -> Add Ingredients to Fridge -> View Ingredients Store"
+      }
+    ]
+  }
+]

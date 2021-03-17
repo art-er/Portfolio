@@ -20,7 +20,7 @@
       <div class="col-1"></div>
 
     <div class="col-lg col-sm-12">
-      <img class="mr-3 rounded" src="../../../assets/Ydoli.jpg" width="300"  alt="enjoy time">
+      <img class="mr-3 rounded " src="../../../assets/bala.jpg" width="450"  alt="enjoy time">
     </div>
   </div>
 
@@ -28,63 +28,31 @@
   <div class="row m-5"></div><!--br-->
   <div class="row m-5"></div><!--br-->
 
+  <div *ngFor="let project of projects">
+    <div class="row mt-5">
+      <div class="col-lg col-sm-12">
 
-  <div class="row mt-5">
-    <div class="col-lg col-sm-12">
-
-      <h1 class="display-4 customH1 font-weight-bold">Fo_oD.Style</h1>
-      <h4 class="customH1 my-3 ">{{ up | uppercase }}</h4>
-      <p class="">
-        This is an individual project created to gain experience in mobile design development.
-        Applications Fo_oD Style aims to combine delivery.
-      </p >
-      <div class="d-flex justify-content-end">
-        <div routerLink="project-detail">
-          <a style="border-bottom: 1px solid black; margin-right: 10px">Read Case Study</a>
-          <img class="mr-3 rounded" src="../../../assets/arrow.svg" width="16" alt="arrow">
+        <h1 class="display-4 customH1 font-weight-bold">{{project.name}}</h1>
+        <h4 class="customH1 my-3 ">{{ up | uppercase }}</h4>
+        <p class="">
+          {{project.shortDescription}}
+        </p >
+        <div class="d-flex justify-content-end">
+          <div [routerLink]="'/project-detail/' + project.url">
+            <a style="border-bottom: 1px solid black; margin-right: 10px">Read Case Study</a>
+            <img class="mr-3 rounded" src="../../../assets/arrow.svg" width="16" alt="arrow">
+          </div>
         </div>
       </div>
-    </div>
-    <div class="col-1"></div>
-    <!--Content(text) block FooD Style-->
+      <div class="col-1"></div>
+      <!--Content(text) block FooD Style-->
 
-    <div class="col-lg col-sm-12">
-      <img class="mr-3 rounded" src="../../../assets/enjoying.PNG"  alt="enjoy time">
-    </div>
-  </div>
-
-
-  <div class="row m-5"></div><!--br-->
-  <div class="row m-5"></div><!--br-->
-
-
-  <div class="row mt-5">
-    <div class="col-lg col-sm-12">
-
-      <h1 class="display-4 customH1 font-weight-bold">Canto</h1>
-      <h4 class="customH1 my-3 ">{{ up | uppercase }}</h4>
-      <p class="">
-        This is an individual project created to gain experience in mobile design development.
-        Applications Fo_oD Style aims to combine delivery.
-      </p >
-      <div style="margin-left: 310px; margin-top: 30px" routerLink="project-detail">
-        <a style="border-bottom: 1px solid black; margin-right: 10px">Read Case Study</a>
-        <img class="mr-3 rounded" src="../../../assets/arrow.svg" width="16" alt="arrow">
+      <div class="col-lg col-sm-12">
+        <img class="mr-3 rounded" src="../../../assets/{{project.imgUrl}}"  alt="enjoy time" style="max-width: 450px">
       </div>
     </div>
-
-    <div class="col-1"></div>
-    <!--Content(text) block FooD Style-->
-
-    <div class="col-lg col-sm-12">
-      <img class="mr-3 rounded" src="../../../assets/enjoying.PNG"  alt="enjoy time">
-    </div>
+    <div class="row m-5"></div><!--br-->
+    <div class="row m-5"></div><!--br-->
   </div>
-
-
-  <div class="row m-5"></div><!--br-->
-  <div class="row m-5"></div><!--br-->
-
-
 
 </div>

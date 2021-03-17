@@ -11,7 +11,7 @@ const routes: Routes = [
     component: DashboardComponent
   },
   {
-    path: 'project-detail',
+    path: 'project-detail/:projectUrl',
     component: ProjectDetailComponent
   },
   {
