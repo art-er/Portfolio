@@ -1,5 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import {FormControl, FormGroup} from '@angular/forms';
+import {ActivatedRouteSnapshot, RouterStateSnapshot} from '@angular/router';
+import {Observable} from 'rxjs';
+import {ComponentCanDeactivate} from '../contact-exit.guard';
 
 @Component({
   selector: 'app-contact',
@@ -7,7 +10,9 @@ import {FormControl, FormGroup} from '@angular/forms';
   styleUrls: ['./contact.component.css']
 })
 
-export class ContactComponent implements OnInit {
+export class ContactComponent implements ComponentCanDeactivate {
+
+  constructor() { }
 
   record = new FormGroup({
     name: new FormControl(''),
@@ -15,14 +20,27 @@ export class ContactComponent implements OnInit {
     message: new FormControl('')
   });
 
-  constructor() { }
+  saved = false;
 
-  ngOnInit(): void {
-  }
+  // ngOnInit(): void {
+  // }
 
   // tslint:disable-next-line:typedef
   SaveButtonClick() {
     console.log(this.record.value);
   }
+  // tslint:disable-next-line:typedef
+  save(){
+    this.saved = true;
+  }
 
+  canDeactivate(): boolean | Observable<boolean>{
+
+    if (!this.saved){
+      return confirm('Вы хотите покинуть страницу?');
+    }
+    else{
+      return true;
+    }
+  }
 }
