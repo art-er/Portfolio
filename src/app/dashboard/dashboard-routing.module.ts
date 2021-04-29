@@ -5,6 +5,9 @@ import {ProjectDetailComponent} from './project-detail/project-detail.component'
 import {ContactComponent} from './contact/contact.component';
 import {AboutComponent} from './about/about.component';
 import {ContactExitGuard} from './contact-exit.guard';
+import {LoadGuard} from './load.guard';
+import {InfoGuard} from './info.guard';
+import {GteValidatorService} from './contact/gte-validator.service';
 
 const routes: Routes = [
   {
@@ -18,15 +21,16 @@ const routes: Routes = [
   {
     path: 'project-contact',
     component: ContactComponent,
-    canDeactivate: [ContactExitGuard]
+    canDeactivate: [ContactExitGuard],
   },
   {
     path: 'project-about',
-    component: AboutComponent
+    component: AboutComponent,
   }
 ];
 @NgModule({
   imports: [RouterModule.forChild(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
+  providers: [ContactExitGuard]
 })
 export class DashboardRoutingModule { }

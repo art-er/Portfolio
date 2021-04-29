@@ -1,8 +1,10 @@
 import { Component, OnInit } from '@angular/core';
-import {FormControl, FormGroup} from '@angular/forms';
+import {FormControl, FormGroup, Validators} from '@angular/forms';
 import {ActivatedRouteSnapshot, RouterStateSnapshot} from '@angular/router';
 import {Observable} from 'rxjs';
 import {ComponentCanDeactivate} from '../contact-exit.guard';
+import {GteValidatorService} from './gte-validator.service';
+import {gte} from "./gte.validator";
 
 @Component({
   selector: 'app-contact',
@@ -10,9 +12,21 @@ import {ComponentCanDeactivate} from '../contact-exit.guard';
   styleUrls: ['./contact.component.css']
 })
 
-export class ContactComponent implements ComponentCanDeactivate {
+export class ContactComponent implements ComponentCanDeactivate, OnInit {
 
-  constructor() { }
+  constructor(private gteValidatorService: GteValidatorService) { }
+  personForm: FormGroup;
+
+  ngOnInit(): void {
+    this.personForm = new FormGroup({
+      firstname: new FormControl('', [Validators.required, Validators.minLength(4)]),
+      email: new FormControl('', [this.gteValidatorService.gte(10)]),
+    });
+  }
+
+  get email() {
+    return this.personForm.get('email');
+  }
 
   record = new FormGroup({
     name: new FormControl(''),

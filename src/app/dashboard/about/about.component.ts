@@ -1,4 +1,8 @@
 import { Component, OnInit } from '@angular/core';
+import {ActivatedRoute} from '@angular/router';
+
+class InfoGuard {
+}
 
 @Component({
   selector: 'app-about',
@@ -7,9 +11,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AboutComponent implements OnInit {
 
-  constructor() { }
+  // tslint:disable-next-line:no-shadowed-variable
+  constructor(private activatedRoute: ActivatedRoute) { }
 
   ngOnInit(): void {
+    console.log(this.activatedRoute.snapshot.data);
   }
 
 }

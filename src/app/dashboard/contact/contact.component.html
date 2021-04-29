@@ -82,11 +82,27 @@
 
 <div class="row mt-5">
   <div class="col-7">
-    <form [formGroup]="record">
+    <form [formGroup]="personForm" (ngSubmit)="SaveButtonClick()">
       <div class="row">
         <div class="col">
-          <label for="name" class="font-weight-bold">Full Name</label>
-          <input type="text" class="form-control" id="name" name="name" formControlName="name">
+          <label for="firstname" class="font-weight-bold">Full Name</label>
+          <input type="text" class="form-control" id="firstname" name="firstname" formControlName="firstname">
+          <!-- errors -->
+          <div [style.color]="'red'" *ngIf="!personForm?.controls?.firstname?.valid
+                && (personForm?.controls?.firstname?.dirty
+                    || personForm?.controls?.firstname?.touched)">
+            Invalid Name
+            <div *ngIf="personForm?.controls?.firstname?.errors?.required">
+              Name is required
+            </div>
+            <div *ngIf="personForm?.controls?.firstname?.errors?.minlength">
+              First Name min length error {{personForm?.controls?.firstname?.errors?.minlength?.requiredLength}}
+            </div>
+            <div *ngIf="personForm?.controls?.firstname?.errors?.pattern">
+              First Name must contain only latin characters
+            </div>
+          </div>
+
         </div>
         <div class="col">
           <label for="email" class="font-weight-bold">Email</label>
