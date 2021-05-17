@@ -20,7 +20,7 @@ export class ContactComponent implements ComponentCanDeactivate, OnInit {
   ngOnInit(): void {
     this.personForm = new FormGroup({
       firstname: new FormControl('', [Validators.required, Validators.minLength(4)]),
-      email: new FormControl('', [this.gteValidatorService.gte(10)]),
+      email: new FormControl('', [ Validators.email, this.gteValidatorService.gte(10)]),
     });
   }
 

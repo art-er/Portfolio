@@ -124,31 +124,31 @@
       },
       {
         "id": 2,
-        "imageUrl": "Message.PNG",
-        "title": "Mom's message",
+        "imageUrl": "news.PNG",
+        "title": "Read from news",
         "description": "Damn, mom wrote that the guests are coming soon and I need to make pasta, what should I do?"
       },
       {
         "id": 3,
-        "imageUrl": "Restaurant.PNG",
+        "imageUrl": "team.PNG",
         "title": "Look for a recipes",
         "description": "So, I have a Food Style application where I can find a recipe and, if I can't cook, I'll just order ready-made food."
       },
       {
         "id": 4,
-        "imageUrl": "Fridge.PNG",
+        "imageUrl": "howto.PNG",
         "title": "Check the fridge",
         "description": "I found an easy recipe for pasta, it says that you need noodles, minced meat and tomato paste, I need to check the fridge"
       },
       {
         "id": 5,
-        "imageUrl": "check.PNG",
+        "imageUrl": "monitor.PNG",
         "title": "Order ingredients",
         "description": "It turns out I don't have minced meat, I need to order it and at the same time order pizza and sushi"
       },
       {
         "id": 6,
-        "imageUrl": "TakeOrder.PNG",
+        "imageUrl": "party.PNG",
         "title": "Take order",
         "description": "All the order came, pretty quickly I didn't even have time to boil the paws"
       }
